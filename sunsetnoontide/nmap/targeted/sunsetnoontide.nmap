@@ -1,0 +1,13 @@
+# Nmap 7.91 scan initiated Thu Nov 11 10:22:24 2021 as: nmap -p 6667,6697,8067 -sV -sC -v -oA ./nmap/targeted/sunsetnoontide 192.168.224.120
+Nmap scan report for 192.168.224.120
+Host is up (0.060s latency).
+
+PORT     STATE SERVICE VERSION
+6667/tcp open  irc     UnrealIRCd
+6697/tcp open  irc     UnrealIRCd
+8067/tcp open  irc     UnrealIRCd
+Service Info: Host: irc.foonet.com
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Nov 11 10:22:28 2021 -- 1 IP address (1 host up) scanned in 3.71 seconds
